@@ -90,7 +90,7 @@ def freq_table(train, cat_var):
     for a given categorical variable, compute the frequency count and percent split
     and return a dataframe of those values along with the different classes. 
     '''
-    class_labels = list(train[cat_var].unique())
+    class_labels = list(train[cat_var].nunique())
 
     frequency_table = (
         pd.DataFrame({cat_var: class_labels,
