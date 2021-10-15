@@ -67,5 +67,7 @@ From this application (audiokeychain.com) I was able to create and export a csv 
     agitated: listener reported induced emotions. 1 for any instance of tension, irritation, impatience, sadness or depression. 0 for none reported. 
     energized: listener reported induced emotions. 1 for any instance or instances of power, triumph, energy, joyful activation, animated, amused.   
 ***
-#### To recreate this project, please upload the datasets available the above link. You may access the csv file I created using audiokeychain.com here:https://drive.google.com/file/d/1ZhQLEZHZ6Q4eElMZTXGN9CJnMuYEbWbX/view?usp=sharing
-#### Be sure to clone the final_notebook, acquire.py and explore.py modules.
+#### To recreate this project, please upload this csv file: http://www2.projects.science.uu.nl/memotion/emotifydata/data.csv  Rename this file emotify.csv
+#### You may access the csv file I created using audiokeychain.com here:https://drive.google.com/file/d/1ZhQLEZHZ6Q4eElMZTXGN9CJnMuYEbWbX/view?usp=sharing Name this file AudioKeychain_export.csv
+#### Be sure to clone the final_notebook, acquire.py and explore.py modules.  
+#### Your repo should contain the following files: final_notebook.ipynb, acquire.py, explore.py, emotify.csv, AudioKeychain_export.csv
